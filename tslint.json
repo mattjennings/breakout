@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-eslint-rules",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "rules": {
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-implicit-dependencies": false,
+    "no-var-requires": false,
+    "prefer-conditional-expression": false,
+    "no-console": false,
+    "trailing-comma": false,
+    "quotemark": false,
+    "interface-name": false,
+    "eofline": false,
+    "no-unused-variable": true,
+    "prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "semi": false
+      }
+    ]
+  }
+}
